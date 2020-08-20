@@ -1,0 +1,42 @@
+{
+  "title": "Validação Contrato API Employee Post Create",
+  "type": "object",
+  "properties": {
+    "empregadoId": {
+      "type": "integer"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "sexo": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "admissao": {
+      "type": "string"
+    },
+    "salario": {
+      "type": "string"
+    },
+    "comissao": {
+      "type": "string"
+    },
+    "tipoContratacao": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "empregadoId",
+    "sexo",
+    "cpf",
+    "admissao",
+    "salario",
+    "comissao",
+    "tipoContratacao"
+  ]
+}

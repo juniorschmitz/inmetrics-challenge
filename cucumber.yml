@@ -1,0 +1,20 @@
+# Plataform
+default: -p html_report -p json_report -p chrome
+api: -p api_execution -p html_report -p json_report
+api_log: -p http_log -p api
+
+# Reports
+json_report: --format pretty --format json --out=report/output.json
+html_report: --format pretty --format html --out=report/output.html
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+internet_explorer: BROWSER=internet_explorer
+
+# Etc
+headless: HEADLESS=true
+api_execution: API_EXECUTION=true 

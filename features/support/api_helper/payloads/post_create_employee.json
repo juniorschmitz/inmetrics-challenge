@@ -1,0 +1,11 @@
+{
+  "admissao": "string",
+  "cargo": "string",
+  "comissao": "string",
+  "cpf": "string",
+  "departamentoId": 0,
+  "nome": "string",
+  "salario": "string",
+  "sexo": "string",
+  "tipoContratacao": "string"
+}
