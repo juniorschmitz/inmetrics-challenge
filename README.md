@@ -1,4 +1,4 @@
-## Teste Inmetrics
+## API + Web Ruby Automation
 Projeto construído utilizando Ruby versão 2.5.X
 #### Sobre Configuração e Execução
 **Para instalar as dependências do projeto localmente, ir até a raíz do projeto (mesmo nível do Gemfile) via terminal e executar:**
@@ -21,4 +21,3 @@ $ bundle exec cucumber -p api -t@regressao_api
 - Testes de CRUD de empregados usa API para criar massa antes (Edição e Exclusão);
 - Utilizada validação de JSON Schema para o contrato de criação de empregados;
 - Utilizada uma classe central para chamada de requisições API para a API de empregados;
-
